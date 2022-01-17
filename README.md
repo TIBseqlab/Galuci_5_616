@@ -1,3 +1,4 @@
 # Galuci_5_616
 Libraries for single-molecule real-time (SMRT) sequencing was constructed with an insert size of 10 kb using the SMRT bell TM Template kit (version 1.0). Then another round of sequencing was performed using PacBio Sequel platform. To perform genome assembly, SMRT Link v5.0.1 was used with optimized parameters. Illumina reads were used afterwards for reducing degree of heterozygosity using Purge Haplotigs software. Then RagTag software was used for reference-guided scaffolding. Finally, Illumina reads were used again for error correction using Pilon software. 
 
+With the RNA-seq data and protein data of the Ganoderma lucidum, Braker2 was used for accurate gene structure annotation. After that, all genes were annotated based on 26 different databases and 5 tools covering information on the family, domain, classification, structure, gene ontology and pathway using in-house scripts. 
